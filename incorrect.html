@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" type="A basic biology quiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMW Quiz App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- This is the incorrect answer view of the quiz app ---->
+
+    <header role="banner" class="banner">
+            <h1>BMW Challenge Quiz</h1>
+            <p>Question <span id="question-number">#</span> of <span>10</span></p>
+    </header>
+    <main>
+        <div class="correct-box">
+                <h3> Incorrect! You'll get it next time!</h3>
+                <p>Some Explanation of the answer</p>.
+                <img class="result-box-img" src="img/jordan-crying.jpg" alt="big brain">
+        </div>
+        <form class="question-form">
+             <input type="submit" value="Next">
+        </form>
+
+
+    </main>
+    
+    <footer class="score-card">Score: <span id="score">0</span> of <span>10</span></footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
