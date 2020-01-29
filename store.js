@@ -2,7 +2,7 @@
 
 const STORE = [
     { // Q 1
-      question: "What was first car EVER made by BMW?",
+      question: "What was the first car EVER made by BMW?",
       answers: [
           'Motor-wagon',
           'Sport-Phaeton',
